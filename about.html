@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1><b><u>ABOUT US</u></b></h1>
+  <p>Aakshank is annual cultural fest of IET-DAVV and it's central India's largest cultural fest having footfall of 40,000. Aakshank is a four day mega fest which held every year in last week of february at our college campus and in last year's fest we had hosted stars like Zakir Khan, Zubin Nautiyal and Dj Univz</p>
+  <p>Waving flashlights, rhythmic jumps, rolling drums and applauses that never terminated, seems like AAKSHANK passed by. Stepping up continually it has made an indelible mark with a new version every year.. Celebrate the years of success and cherish those which are to come..</p>
+  <p>Central India's largest cultural festival organized by IET DAVV, Indore</p>
+    <p>Bringing smiles since past 13 glorious years</p>
+  <p>Institute of Engineering and Technology</p>
+  <p>Devi Ahilya Vishwavidyalaya</p>
+  <p>Khandwa Road Indore-452017 (M.P.)</p>
+  <p>(ph): 0731-2361116 / 2361117</p>
+  <p>for any queries contact at: webmaster@ietdavv.edu.in</p>
+  <img src="IMG\\i.png" >
+</div>
+
+<h2 style="text-align:center"><u>OUR POST SPONSER</u></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="IMG\Y.jpg"  style="width:50%">
+      <div class="container">
+        <h2>Banking</h2>
+        <p class="title">Banking</p>
+        <p>State Bank of India is an Indian multinational, public sector banking and financial services statutory body headquartered in Mumbai, Maharashtra. </p>
+        <p> inb.customer@sbi.co.in.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="IMG\\h.jpg"  style="width:50%">
+      <div class="container">
+        <h2>Coaching</h2>
+        <p class="title">2019</p>
+        <p>CH EdgeMakers is Indore based training institute providing comprehensive solutions for various training needs of students, professionals and educational institutes.</p>
+        <p>hello@chgroup.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="IMG\\s.png"  style="width:50%">
+      <div class="container">
+        <h2>Swiggy</h2>
+        <p class="title">Swiggy</p>
+        <p>internet</p>
+        <p>Order food online from restaurants and get it delivered.</p>
+        <p>support@swiggy.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<td><a href="FRONT.HTML">
+  <form>
+    <center><input type="button" class="button" value="GO TO FRONT PAGE" onclick="history.go(-1)"></center>
+  </form>
+</body>
+</html>
